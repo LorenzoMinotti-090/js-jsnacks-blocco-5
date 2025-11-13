@@ -1,7 +1,7 @@
 const numbers = [2, 8, 4, 7, 2, 87];
 
 
-const incremento = numbers.map (function(aumento) {
+const incremento = numbers.map(function (aumento) {
   return aumento + 1;
 });
 
