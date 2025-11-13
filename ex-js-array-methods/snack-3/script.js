@@ -1,0 +1,11 @@
+const numbers = [2, 8, 4, 7, 2, 87];
+
+
+const incremento = numbers.map (function(aumento) {
+  return aumento + 1;
+});
+
+console.log(incremento);
+
+// Crea un nuovo array in cui tutti i numeri siano incrementati di 1
+// Risultato: [3, 9, 5, 8, 3, 88]
