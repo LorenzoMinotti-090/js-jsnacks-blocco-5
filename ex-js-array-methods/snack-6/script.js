@@ -22,4 +22,13 @@ const zucchineLunghe = zucchine.filter(function (zucchina) {
   }
 });
 
-console.log(zucchineLunghe);
+const zucchineCorte = zucchine.filter(function (zucchina) {
+  if (zucchina.length < 15) {
+    return true;
+  } else {
+    return false;
+  }
+});
+
+console.log("Zucchine lunghe:");
+console.log("Zucchine corte:");
